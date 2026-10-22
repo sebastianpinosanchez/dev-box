@@ -1,0 +1,112 @@
+[
+  {
+    "prefix": "https://example.com",
+    "reason": "Inert URL parser/cURL/reference sample host; never requested."
+  },
+  {
+    "prefix": "http://www.w3.org/",
+    "reason": "SVG/XML namespace identifiers, not network resources."
+  },
+  {
+    "prefix": "http://www.w3.org",
+    "reason": "Generated SVG namespace constants."
+  },
+  {
+    "prefix": "http://www.w3.org/1999/xlink",
+    "reason": "React SVG namespace."
+  },
+  {
+    "prefix": "http://www.w3.org/XML/1998/namespace",
+    "reason": "XML namespace."
+  },
+  {
+    "prefix": "https://react.dev/errors/",
+    "reason": "Bundled React diagnostic error link, never fetched.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://localhost",
+    "reason": "React Router URL parsing base, not a remote connection.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://reactrouter.com/en/main/routers/picking-a-router",
+    "reason": "React Router diagnostic message.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://[${",
+    "reason": "Zod IPv6 URL validation constructs an inert URL for syntax checking.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://json-schema.org/draft/2020-12/schema",
+    "reason": "Bundled Zod JSON Schema identifier.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://json-schema.org/draft-07/schema",
+    "reason": "Bundled Zod JSON Schema identifier.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://json-schema.org/draft-04/schema",
+    "reason": "Bundled Zod JSON Schema identifier.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://www.npmjs.com/package/hash-wasm",
+    "reason": "hash-wasm diagnostic text.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://github.com/markedjs/marked",
+    "reason": "Marked error message link.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://mths.be/he",
+    "reason": "HTML entity package license/header link.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://www.ibm.com/data/dtd/v11/ibmxhtml1-transitional.dtd",
+    "reason": "parse5 historical HTML doctype identifier; no DTD fetch.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://prettier.io/docs/plugins#optional-embed",
+    "reason": "Prettier diagnostic text.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags",
+    "reason": "Bundled formatter documentation reference.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://evilmartians.com/chronicles/postcss-8-plugin-migration",
+    "reason": "Bundled PostCSS diagnostic text.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://foo.com",
+    "reason": "CSS parser inert example string in bundled diagnostics.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://github.com/csstree/csstree/issues",
+    "reason": "CSS parser diagnostic link.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "https://github.com/mholt/PapaParse",
+    "reason": "CSV parser license/header reference.",
+    "buildOnly": true
+  },
+  {
+    "prefix": "http://www.apache.org/licenses/LICENSE-2.0",
+    "reason": "Bundled dependency license header.",
+    "buildOnly": true
+  }
+]

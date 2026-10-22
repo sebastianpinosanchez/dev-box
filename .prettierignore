@@ -1,0 +1,7 @@
+node_modules
+dist
+src/components/ui
+package-lock.json
+implementation.md
+playwright-report
+test-results

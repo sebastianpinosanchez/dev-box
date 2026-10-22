@@ -1,0 +1,3 @@
+# Tool conventions
+
+Read ../../AGENTS.md and ../../docs/adding-a-tool.md. Every tool has meta.ts, logic.ts, logic.test.ts, Tool.tsx, samples.ts and index.ts. IDs match directories. Export `run: Runner` from logic; return structured ToolResult or throw an actionable Error. Never access DOM, React state, storage or networking in logic. Browser cryptography/randomness is permitted. Never import another tool. Test exact vectors, invalid input, empty/boundary behavior, and round trips where applicable. Samples contain only invented data. Use Workbench and shadcn for UI; never execute generated commands.

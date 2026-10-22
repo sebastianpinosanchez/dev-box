@@ -1,0 +1,307 @@
+[
+  {
+    "code": "100",
+    "name": "Continue",
+    "description": "Continue sending the request body."
+  },
+  {
+    "code": "101",
+    "name": "Switching Protocols",
+    "description": "The server is switching protocols."
+  },
+  {
+    "code": "102",
+    "name": "Processing",
+    "description": "The server is still processing the request."
+  },
+  {
+    "code": "103",
+    "name": "Early Hints",
+    "description": "Preliminary response header hints."
+  },
+  {
+    "code": "200",
+    "name": "OK",
+    "description": "The request succeeded."
+  },
+  {
+    "code": "201",
+    "name": "Created",
+    "description": "A resource was created."
+  },
+  {
+    "code": "202",
+    "name": "Accepted",
+    "description": "Accepted for asynchronous processing."
+  },
+  {
+    "code": "203",
+    "name": "Non-Authoritative Information",
+    "description": "Metadata was transformed by a proxy."
+  },
+  {
+    "code": "204",
+    "name": "No Content",
+    "description": "Success with no response body."
+  },
+  {
+    "code": "205",
+    "name": "Reset Content",
+    "description": "Reset the document view."
+  },
+  {
+    "code": "206",
+    "name": "Partial Content",
+    "description": "A byte-range response."
+  },
+  {
+    "code": "207",
+    "name": "Multi-Status",
+    "description": "Multiple WebDAV operation statuses."
+  },
+  {
+    "code": "208",
+    "name": "Already Reported",
+    "description": "WebDAV members already reported."
+  },
+  {
+    "code": "226",
+    "name": "IM Used",
+    "description": "Instance manipulations applied."
+  },
+  {
+    "code": "300",
+    "name": "Multiple Choices",
+    "description": "Several representations are available."
+  },
+  {
+    "code": "301",
+    "name": "Moved Permanently",
+    "description": "The resource moved permanently."
+  },
+  {
+    "code": "302",
+    "name": "Found",
+    "description": "Temporary redirect."
+  },
+  {
+    "code": "303",
+    "name": "See Other",
+    "description": "Retrieve another URI using GET."
+  },
+  {
+    "code": "304",
+    "name": "Not Modified",
+    "description": "Use the cached representation."
+  },
+  {
+    "code": "307",
+    "name": "Temporary Redirect",
+    "description": "Temporary redirect preserving method."
+  },
+  {
+    "code": "308",
+    "name": "Permanent Redirect",
+    "description": "Permanent redirect preserving method."
+  },
+  {
+    "code": "400",
+    "name": "Bad Request",
+    "description": "Malformed or invalid request."
+  },
+  {
+    "code": "401",
+    "name": "Unauthorized",
+    "description": "Authentication is required."
+  },
+  {
+    "code": "402",
+    "name": "Payment Required",
+    "description": "Reserved for payment-related use."
+  },
+  {
+    "code": "403",
+    "name": "Forbidden",
+    "description": "Access is refused."
+  },
+  {
+    "code": "404",
+    "name": "Not Found",
+    "description": "Resource not found."
+  },
+  {
+    "code": "405",
+    "name": "Method Not Allowed",
+    "description": "Method not supported for the resource."
+  },
+  {
+    "code": "406",
+    "name": "Not Acceptable",
+    "description": "No acceptable representation available."
+  },
+  {
+    "code": "407",
+    "name": "Proxy Authentication Required",
+    "description": "Authenticate with the proxy."
+  },
+  {
+    "code": "408",
+    "name": "Request Timeout",
+    "description": "Request was not received in time."
+  },
+  {
+    "code": "409",
+    "name": "Conflict",
+    "description": "Conflicts with the current resource state."
+  },
+  {
+    "code": "410",
+    "name": "Gone",
+    "description": "Resource permanently removed."
+  },
+  {
+    "code": "411",
+    "name": "Length Required",
+    "description": "Content-Length required."
+  },
+  {
+    "code": "412",
+    "name": "Precondition Failed",
+    "description": "Request preconditions failed."
+  },
+  {
+    "code": "413",
+    "name": "Content Too Large",
+    "description": "Request body exceeds the size limit."
+  },
+  {
+    "code": "414",
+    "name": "URI Too Long",
+    "description": "Request target is too long."
+  },
+  {
+    "code": "415",
+    "name": "Unsupported Media Type",
+    "description": "Unsupported body media type."
+  },
+  {
+    "code": "416",
+    "name": "Range Not Satisfiable",
+    "description": "Requested range cannot be served."
+  },
+  {
+    "code": "417",
+    "name": "Expectation Failed",
+    "description": "Expectation cannot be met."
+  },
+  {
+    "code": "418",
+    "name": "I'm a teapot",
+    "description": "Reserved / historical teapot status."
+  },
+  {
+    "code": "421",
+    "name": "Misdirected Request",
+    "description": "Request directed to the wrong server."
+  },
+  {
+    "code": "422",
+    "name": "Unprocessable Content",
+    "description": "Valid syntax but invalid instructions."
+  },
+  {
+    "code": "423",
+    "name": "Locked",
+    "description": "Resource is locked."
+  },
+  {
+    "code": "424",
+    "name": "Failed Dependency",
+    "description": "Dependent action failed."
+  },
+  {
+    "code": "425",
+    "name": "Too Early",
+    "description": "Replay risk prevents processing."
+  },
+  {
+    "code": "426",
+    "name": "Upgrade Required",
+    "description": "A protocol upgrade is required."
+  },
+  {
+    "code": "428",
+    "name": "Precondition Required",
+    "description": "Conditional request required."
+  },
+  {
+    "code": "429",
+    "name": "Too Many Requests",
+    "description": "Rate limit exceeded."
+  },
+  {
+    "code": "431",
+    "name": "Request Header Fields Too Large",
+    "description": "Headers exceed a limit."
+  },
+  {
+    "code": "451",
+    "name": "Unavailable For Legal Reasons",
+    "description": "Access restricted for legal reasons."
+  },
+  {
+    "code": "500",
+    "name": "Internal Server Error",
+    "description": "Unexpected server failure."
+  },
+  {
+    "code": "501",
+    "name": "Not Implemented",
+    "description": "Functionality not implemented."
+  },
+  {
+    "code": "502",
+    "name": "Bad Gateway",
+    "description": "Invalid response from an upstream server."
+  },
+  {
+    "code": "503",
+    "name": "Service Unavailable",
+    "description": "Temporarily unable to serve requests."
+  },
+  {
+    "code": "504",
+    "name": "Gateway Timeout",
+    "description": "Upstream response timed out."
+  },
+  {
+    "code": "505",
+    "name": "HTTP Version Not Supported",
+    "description": "Unsupported HTTP version."
+  },
+  {
+    "code": "506",
+    "name": "Variant Also Negotiates",
+    "description": "Content negotiation configuration error."
+  },
+  {
+    "code": "507",
+    "name": "Insufficient Storage",
+    "description": "Server lacks storage capacity."
+  },
+  {
+    "code": "508",
+    "name": "Loop Detected",
+    "description": "Infinite processing loop detected."
+  },
+  {
+    "code": "510",
+    "name": "Not Extended",
+    "description": "Further request extensions required."
+  },
+  {
+    "code": "511",
+    "name": "Network Authentication Required",
+    "description": "Network access authentication required."
+  }
+]

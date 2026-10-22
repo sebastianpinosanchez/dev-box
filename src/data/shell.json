@@ -1,0 +1,198 @@
+[
+  {
+    "category": "Files",
+    "command": "ls",
+    "description": "List files, including hidden entries.",
+    "flags": "-l long; -a all; -h human sizes",
+    "example": "ls -lah"
+  },
+  {
+    "category": "Files",
+    "command": "find",
+    "description": "Find files recursively.",
+    "flags": "-type f files; -name glob",
+    "example": "find . -type f -name \"*.log\""
+  },
+  {
+    "category": "Files",
+    "command": "cp",
+    "description": "Copy a file or directory.",
+    "flags": "-r recursive; -i confirm overwrite",
+    "example": "cp -ri source/ destination/"
+  },
+  {
+    "category": "Files",
+    "command": "mv",
+    "description": "Move or rename a file.",
+    "flags": "-i confirm overwrite",
+    "example": "mv -i old.txt new.txt"
+  },
+  {
+    "category": "Files",
+    "command": "mkdir",
+    "description": "Create directories.",
+    "flags": "-p create parents",
+    "example": "mkdir -p project/src"
+  },
+  {
+    "category": "Files",
+    "command": "ln",
+    "description": "Create a symbolic link.",
+    "flags": "-s symbolic",
+    "example": "ln -s target shortcut"
+  },
+  {
+    "category": "Permissions",
+    "command": "chmod",
+    "description": "Set access permissions.",
+    "flags": "u owner; g group; o others",
+    "example": "chmod u+x script.sh"
+  },
+  {
+    "category": "Permissions",
+    "command": "chown",
+    "description": "Change file ownership.",
+    "flags": "-R recursive",
+    "example": "sudo chown user:group file"
+  },
+  {
+    "category": "Processes",
+    "command": "ps",
+    "description": "Inspect running processes.",
+    "flags": "aux all users, detailed",
+    "example": "ps aux"
+  },
+  {
+    "category": "Processes",
+    "command": "kill",
+    "description": "Send a process a signal.",
+    "flags": "-TERM graceful; -KILL immediate",
+    "example": "kill -TERM 1234"
+  },
+  {
+    "category": "Processes",
+    "command": "top",
+    "description": "Interactive process monitor.",
+    "flags": "-p select PID",
+    "example": "top -p 1234"
+  },
+  {
+    "category": "Networking",
+    "command": "ss",
+    "description": "Inspect listening sockets.",
+    "flags": "-t TCP; -u UDP; -l listening; -n numeric",
+    "example": "ss -tuln"
+  },
+  {
+    "category": "Networking",
+    "command": "ip",
+    "description": "Show network addresses and routes.",
+    "flags": "addr addresses; route routes",
+    "example": "ip addr show"
+  },
+  {
+    "category": "Networking",
+    "command": "curl",
+    "description": "Inspect an HTTP response from your shell.",
+    "flags": "-I headers; -L follow redirects",
+    "example": "curl -I https://example.com"
+  },
+  {
+    "category": "Networking",
+    "command": "dig",
+    "description": "Inspect DNS records from your shell.",
+    "flags": "+short brief output",
+    "example": "dig +short example.com"
+  },
+  {
+    "category": "Disk",
+    "command": "df",
+    "description": "Show filesystem usage.",
+    "flags": "-h human sizes",
+    "example": "df -h"
+  },
+  {
+    "category": "Disk",
+    "command": "du",
+    "description": "Measure directory sizes.",
+    "flags": "-s summary; -h human sizes",
+    "example": "du -sh ."
+  },
+  {
+    "category": "Archives",
+    "command": "tar",
+    "description": "Create or extract tar archives.",
+    "flags": "c create; x extract; z gzip; f file",
+    "example": "tar -czf archive.tar.gz folder/"
+  },
+  {
+    "category": "Archives",
+    "command": "unzip",
+    "description": "Extract a ZIP archive.",
+    "flags": "-l list; -d destination",
+    "example": "unzip archive.zip -d output"
+  },
+  {
+    "category": "Text",
+    "command": "grep",
+    "description": "Search lines with a pattern.",
+    "flags": "-n line numbers; -r recursive; -i ignore case",
+    "example": "grep -n \"error\" app.log"
+  },
+  {
+    "category": "Text",
+    "command": "sed",
+    "description": "Transform text streams.",
+    "flags": "-n suppress default output",
+    "example": "sed \"s/old/new/g\" file.txt"
+  },
+  {
+    "category": "Text",
+    "command": "awk",
+    "description": "Process text columns.",
+    "flags": "-F delimiter",
+    "example": "awk -F, '{print $1}' data.csv"
+  },
+  {
+    "category": "Text",
+    "command": "sort / uniq",
+    "description": "Sort lines and count duplicates.",
+    "flags": "sort -n numeric; uniq -c counts",
+    "example": "sort names.txt | uniq -c"
+  },
+  {
+    "category": "Systemd",
+    "command": "systemctl",
+    "description": "Inspect or control services.",
+    "flags": "status; restart; enable",
+    "example": "systemctl status nginx"
+  },
+  {
+    "category": "Systemd",
+    "command": "journalctl",
+    "description": "Read systemd logs.",
+    "flags": "-u unit; -f follow; -n lines",
+    "example": "journalctl -u nginx -n 100"
+  },
+  {
+    "category": "SSH",
+    "command": "ssh",
+    "description": "Connect securely to another machine.",
+    "flags": "-p port; -i identity; -L forward",
+    "example": "ssh -i ~/.ssh/id_ed25519 user@host"
+  },
+  {
+    "category": "SSH",
+    "command": "scp",
+    "description": "Copy files over SSH.",
+    "flags": "-r recursive; -P port",
+    "example": "scp file.txt user@host:/tmp/"
+  },
+  {
+    "category": "SSH",
+    "command": "ssh-keygen",
+    "description": "Generate an SSH key locally.",
+    "flags": "-t type; -C comment",
+    "example": "ssh-keygen -t ed25519 -C \"developer\""
+  }
+]

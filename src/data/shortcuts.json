@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Bash / Zsh",
+    "command": "Ctrl+A / Ctrl+E",
+    "description": "Start / end of line.",
+    "flags": "",
+    "example": "Ctrl+A"
+  },
+  {
+    "category": "Bash / Zsh",
+    "command": "Ctrl+R",
+    "description": "Search history backwards.",
+    "flags": "",
+    "example": "Ctrl+R"
+  },
+  {
+    "category": "Bash / Zsh",
+    "command": "Ctrl+U / Ctrl+K",
+    "description": "Delete before / after cursor.",
+    "flags": "",
+    "example": "Ctrl+K"
+  },
+  {
+    "category": "Bash / Zsh",
+    "command": "Alt+B / Alt+F",
+    "description": "Move backward / forward one word.",
+    "flags": "",
+    "example": "Alt+F"
+  },
+  {
+    "category": "Bash / Zsh",
+    "command": "Ctrl+W / Ctrl+Y",
+    "description": "Delete previous word / paste kill buffer.",
+    "flags": "",
+    "example": "Ctrl+Y"
+  },
+  {
+    "category": "Bash / Zsh",
+    "command": "Ctrl+L",
+    "description": "Clear terminal display.",
+    "flags": "",
+    "example": "Ctrl+L"
+  },
+  {
+    "category": "tmux",
+    "command": "Ctrl+B then %",
+    "description": "Split vertically.",
+    "flags": "Default prefix: Ctrl+B",
+    "example": "Ctrl+B %"
+  },
+  {
+    "category": "tmux",
+    "command": "Ctrl+B then \"",
+    "description": "Split horizontally.",
+    "flags": "",
+    "example": "Ctrl+B \""
+  },
+  {
+    "category": "tmux",
+    "command": "Ctrl+B then d",
+    "description": "Detach session.",
+    "flags": "",
+    "example": "Ctrl+B d"
+  },
+  {
+    "category": "tmux",
+    "command": "Ctrl+B then c",
+    "description": "Create window.",
+    "flags": "",
+    "example": "Ctrl+B c"
+  },
+  {
+    "category": "Vim",
+    "command": ":w / :q / :wq",
+    "description": "Save / quit / save and quit.",
+    "flags": "",
+    "example": "Esc :wq Enter"
+  },
+  {
+    "category": "Vim",
+    "command": "dd / yy / p",
+    "description": "Delete line / copy line / paste.",
+    "flags": "",
+    "example": "yy p"
+  },
+  {
+    "category": "Vim",
+    "command": "u / Ctrl+R",
+    "description": "Undo / redo.",
+    "flags": "",
+    "example": "u"
+  },
+  {
+    "category": "Vim",
+    "command": "/pattern",
+    "description": "Search forward; n repeats.",
+    "flags": "",
+    "example": "/TODO Enter n"
+  },
+  {
+    "category": "nano",
+    "command": "Ctrl+O / Ctrl+X",
+    "description": "Write file / exit.",
+    "flags": "",
+    "example": "Ctrl+O Enter"
+  },
+  {
+    "category": "nano",
+    "command": "Ctrl+W",
+    "description": "Search text.",
+    "flags": "",
+    "example": "Ctrl+W"
+  },
+  {
+    "category": "VS Code",
+    "command": "Ctrl+P / Cmd+P",
+    "description": "Open a file by name.",
+    "flags": "",
+    "example": "Ctrl+P"
+  },
+  {
+    "category": "VS Code",
+    "command": "Ctrl+Shift+P / Cmd+Shift+P",
+    "description": "Open command palette.",
+    "flags": "",
+    "example": "Ctrl+Shift+P"
+  },
+  {
+    "category": "VS Code",
+    "command": "Ctrl+Shift+F / Cmd+Shift+F",
+    "description": "Search across files.",
+    "flags": "",
+    "example": "Ctrl+Shift+F"
+  },
+  {
+    "category": "VS Code",
+    "command": "F2",
+    "description": "Rename a symbol.",
+    "flags": "",
+    "example": "F2"
+  }
+]

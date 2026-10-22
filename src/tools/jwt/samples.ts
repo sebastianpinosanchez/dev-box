@@ -1,0 +1,2 @@
+export const sample =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZXZib3giLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.1ovZ1pG3hAJz1t80sZ1pG3hAJz1t80sZ1pG3hAJz1t8';

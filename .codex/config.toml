@@ -1,0 +1,9 @@
+# Project overrides; loaded only after the repository is trusted.
+# Sources checked 2026-10-21: https://developers.openai.com/codex/config-basic/
+# https://developers.openai.com/codex/config-reference/
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+web_search = "disabled"
+
+[sandbox_workspace_write]
+network_access = false

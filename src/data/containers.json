@@ -1,0 +1,114 @@
+[
+  {
+    "category": "Docker",
+    "command": "docker ps",
+    "description": "List running containers.",
+    "flags": "-a include stopped",
+    "example": "docker ps -a"
+  },
+  {
+    "category": "Docker",
+    "command": "docker build",
+    "description": "Build an image from a Dockerfile.",
+    "flags": "-t tag",
+    "example": "docker build -t devbox ."
+  },
+  {
+    "category": "Docker",
+    "command": "docker logs",
+    "description": "Read container logs.",
+    "flags": "-f follow; --tail lines",
+    "example": "docker logs --tail 100 web"
+  },
+  {
+    "category": "Docker",
+    "command": "docker exec",
+    "description": "Run a command inside a container.",
+    "flags": "-it interactive terminal",
+    "example": "docker exec -it web sh"
+  },
+  {
+    "category": "Docker",
+    "command": "docker inspect",
+    "description": "Inspect object configuration.",
+    "flags": "--format template",
+    "example": "docker inspect web"
+  },
+  {
+    "category": "Compose",
+    "command": "docker compose up",
+    "description": "Create and start services.",
+    "flags": "-d detached; --build build first",
+    "example": "docker compose up -d --build"
+  },
+  {
+    "category": "Compose",
+    "command": "docker compose down",
+    "description": "Stop and remove service containers; volumes kept by default.",
+    "flags": "-v also delete volumes (destructive)",
+    "example": "docker compose down"
+  },
+  {
+    "category": "Compose",
+    "command": "docker compose logs",
+    "description": "Read service logs.",
+    "flags": "-f follow",
+    "example": "docker compose logs -f"
+  },
+  {
+    "category": "Compose",
+    "command": "docker compose config",
+    "description": "Validate and render Compose configuration.",
+    "flags": "",
+    "example": "docker compose config"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl get",
+    "description": "List Kubernetes resources.",
+    "flags": "-n namespace; -o wide",
+    "example": "kubectl get pods -n default -o wide"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl describe",
+    "description": "Inspect resource details and events.",
+    "flags": "",
+    "example": "kubectl describe pod my-pod"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl logs",
+    "description": "Read pod logs.",
+    "flags": "-f follow; -c container",
+    "example": "kubectl logs my-pod -c app"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl apply",
+    "description": "Apply a declarative manifest.",
+    "flags": "-f file",
+    "example": "kubectl apply -f deployment.yaml"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl rollout",
+    "description": "Inspect or undo deployments.",
+    "flags": "status; history; undo",
+    "example": "kubectl rollout status deployment/app"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl port-forward",
+    "description": "Forward a local port to a resource.",
+    "flags": "",
+    "example": "kubectl port-forward service/app 8080:80"
+  },
+  {
+    "category": "kubectl",
+    "command": "kubectl config",
+    "description": "Inspect or switch contexts.",
+    "flags": "current-context; use-context",
+    "example": "kubectl config current-context"
+  }
+]

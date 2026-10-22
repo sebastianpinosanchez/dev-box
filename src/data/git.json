@@ -1,0 +1,107 @@
+[
+  {
+    "category": "Inspect",
+    "command": "git status",
+    "description": "Show working tree changes.",
+    "flags": "--short compact",
+    "example": "git status --short"
+  },
+  {
+    "category": "Inspect",
+    "command": "git log",
+    "description": "Inspect commit history.",
+    "flags": "--oneline; --graph; --all",
+    "example": "git log --oneline --graph --all"
+  },
+  {
+    "category": "Inspect",
+    "command": "git diff",
+    "description": "Inspect unstaged changes.",
+    "flags": "--staged staged changes",
+    "example": "git diff --staged"
+  },
+  {
+    "category": "Workflow",
+    "command": "git switch",
+    "description": "Switch or create a branch.",
+    "flags": "-c create",
+    "example": "git switch -c feature/tool"
+  },
+  {
+    "category": "Workflow",
+    "command": "git add / commit",
+    "description": "Stage and commit selected changes.",
+    "flags": "-m message",
+    "example": "git add src/tool.ts && git commit -m \"Add tool\""
+  },
+  {
+    "category": "Workflow",
+    "command": "git fetch",
+    "description": "Update remote-tracking refs.",
+    "flags": "--prune remove stale refs",
+    "example": "git fetch --prune origin"
+  },
+  {
+    "category": "Workflow",
+    "command": "git merge",
+    "description": "Merge another branch.",
+    "flags": "--no-ff merge commit",
+    "example": "git merge feature/tool"
+  },
+  {
+    "category": "Undo",
+    "command": "git restore",
+    "description": "Discard changes to a named file; review diff first.",
+    "flags": "--staged unstage",
+    "example": "git restore --staged file.txt"
+  },
+  {
+    "category": "Undo",
+    "command": "git revert",
+    "description": "Create a new commit that reverses an older one.",
+    "flags": "",
+    "example": "git revert HEAD"
+  },
+  {
+    "category": "Undo",
+    "command": "git reflog",
+    "description": "Find previous branch positions.",
+    "flags": "",
+    "example": "git reflog"
+  },
+  {
+    "category": "Rebase",
+    "command": "git rebase",
+    "description": "Replay commits; rewrites local history.",
+    "flags": "-i interactive; --abort cancel",
+    "example": "git rebase -i HEAD~3"
+  },
+  {
+    "category": "Rebase",
+    "command": "git rebase --continue",
+    "description": "Continue after resolving conflicts.",
+    "flags": "",
+    "example": "git add resolved.txt && git rebase --continue"
+  },
+  {
+    "category": "Stash",
+    "command": "git stash push",
+    "description": "Temporarily save changes.",
+    "flags": "-u include untracked; -m message",
+    "example": "git stash push -u -m \"work in progress\""
+  },
+  {
+    "category": "Stash",
+    "command": "git stash apply",
+    "description": "Apply saved changes while retaining the stash.",
+    "flags": "",
+    "example": "git stash apply stash@{0}"
+  },
+  {
+    "category": "Worktrees",
+    "command": "git worktree",
+    "description": "Work on branches in separate directories.",
+    "flags": "add; list; remove",
+    "example": "git worktree add ../feature feature"
+  }
+]

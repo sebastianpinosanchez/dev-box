@@ -1,0 +1,100 @@
+[
+  {
+    "category": "Cron",
+    "command": "* * * * *",
+    "description": "Minute, hour, day of month, month, day of week.",
+    "flags": "Minute 0\u201359; hour 0\u201323; month 1\u201312",
+    "example": "0 9 * * 1-5"
+  },
+  {
+    "category": "Cron",
+    "command": "*/n",
+    "description": "Every n units within a field.",
+    "flags": "",
+    "example": "*/15 * * * *"
+  },
+  {
+    "category": "Cron",
+    "command": "a-b / a,b",
+    "description": "Inclusive range / list.",
+    "flags": "",
+    "example": "0 9,17 * * 1-5"
+  },
+  {
+    "category": "Cron",
+    "command": "0 0 * * *",
+    "description": "Every day at midnight in the selected timezone.",
+    "flags": "",
+    "example": "0 0 * * *"
+  },
+  {
+    "category": "Cron",
+    "command": "0 0 1 * *",
+    "description": "First day of every month.",
+    "flags": "",
+    "example": "0 0 1 * *"
+  },
+  {
+    "category": "Regex",
+    "command": ". / \\d / \\w / \\s",
+    "description": "Any non-newline / digit / word / whitespace.",
+    "flags": "",
+    "example": "\\d+"
+  },
+  {
+    "category": "Regex",
+    "command": "^ / $",
+    "description": "Start / end of input (line with m flag).",
+    "flags": "",
+    "example": "^hello$"
+  },
+  {
+    "category": "Regex",
+    "command": "* / + / ?",
+    "description": "Zero or more / one or more / optional.",
+    "flags": "",
+    "example": "ab+c?"
+  },
+  {
+    "category": "Regex",
+    "command": "{n,m}",
+    "description": "Between n and m repetitions.",
+    "flags": "",
+    "example": "\\d{2,4}"
+  },
+  {
+    "category": "Regex",
+    "command": "(...) / (?:...)",
+    "description": "Capturing / non-capturing group.",
+    "flags": "",
+    "example": "(https?)://"
+  },
+  {
+    "category": "Regex",
+    "command": "[abc] / [^abc]",
+    "description": "One character in / outside a set.",
+    "flags": "",
+    "example": "[A-Za-z]+"
+  },
+  {
+    "category": "Regex",
+    "command": "(?<name>...)",
+    "description": "Named capturing group.",
+    "flags": "",
+    "example": "(?<year>\\d{4})"
+  },
+  {
+    "category": "Regex",
+    "command": "(?=...) / (?!...)",
+    "description": "Positive / negative lookahead.",
+    "flags": "",
+    "example": "foo(?=bar)"
+  },
+  {
+    "category": "Regex",
+    "command": "g / i / m / s / u",
+    "description": "Global / ignore case / multiline / dotall / Unicode flags.",
+    "flags": "",
+    "example": "gi"
+  }
+]

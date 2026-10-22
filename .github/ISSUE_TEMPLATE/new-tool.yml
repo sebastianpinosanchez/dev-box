@@ -1,0 +1,42 @@
+name: New tool request
+description: Specify a local-only tool for an agent to implement.
+title: '[Tool] '
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Tool ID
+      description: Unique kebab-case route ID.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        [
+          Encoding,
+          Formatting & Data,
+          Crypto & Security,
+          Text,
+          Time & Scheduling,
+          Web & Network,
+          Reference,
+          Misc,
+        ]
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Behavior and acceptance criteria
+      description: Inputs, outputs, modes, limits, invalid input, sample and tests.
+    validations:
+      required: true
+  - type: textarea
+    id: offline
+    attributes:
+      label: Offline implementation and dependencies
+      description: Explain local processing and justify any new dependency. No external requests.
+    validations:
+      required: true

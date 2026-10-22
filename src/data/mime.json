@@ -1,0 +1,170 @@
+[
+  {
+    "extensions": "txt",
+    "type": "text/plain"
+  },
+  {
+    "extensions": "html htm",
+    "type": "text/html"
+  },
+  {
+    "extensions": "css",
+    "type": "text/css"
+  },
+  {
+    "extensions": "js mjs",
+    "type": "text/javascript"
+  },
+  {
+    "extensions": "json map",
+    "type": "application/json"
+  },
+  {
+    "extensions": "xml",
+    "type": "application/xml"
+  },
+  {
+    "extensions": "csv",
+    "type": "text/csv"
+  },
+  {
+    "extensions": "yaml yml",
+    "type": "application/yaml"
+  },
+  {
+    "extensions": "toml",
+    "type": "application/toml"
+  },
+  {
+    "extensions": "md",
+    "type": "text/markdown"
+  },
+  {
+    "extensions": "pdf",
+    "type": "application/pdf"
+  },
+  {
+    "extensions": "zip",
+    "type": "application/zip"
+  },
+  {
+    "extensions": "gz",
+    "type": "application/gzip"
+  },
+  {
+    "extensions": "tar",
+    "type": "application/x-tar"
+  },
+  {
+    "extensions": "7z",
+    "type": "application/x-7z-compressed"
+  },
+  {
+    "extensions": "bin",
+    "type": "application/octet-stream"
+  },
+  {
+    "extensions": "png",
+    "type": "image/png"
+  },
+  {
+    "extensions": "jpg jpeg",
+    "type": "image/jpeg"
+  },
+  {
+    "extensions": "gif",
+    "type": "image/gif"
+  },
+  {
+    "extensions": "webp",
+    "type": "image/webp"
+  },
+  {
+    "extensions": "avif",
+    "type": "image/avif"
+  },
+  {
+    "extensions": "svg",
+    "type": "image/svg+xml"
+  },
+  {
+    "extensions": "ico",
+    "type": "image/vnd.microsoft.icon"
+  },
+  {
+    "extensions": "mp3",
+    "type": "audio/mpeg"
+  },
+  {
+    "extensions": "wav",
+    "type": "audio/wav"
+  },
+  {
+    "extensions": "ogg",
+    "type": "audio/ogg"
+  },
+  {
+    "extensions": "flac",
+    "type": "audio/flac"
+  },
+  {
+    "extensions": "mp4",
+    "type": "video/mp4"
+  },
+  {
+    "extensions": "webm",
+    "type": "video/webm"
+  },
+  {
+    "extensions": "mov",
+    "type": "video/quicktime"
+  },
+  {
+    "extensions": "wasm",
+    "type": "application/wasm"
+  },
+  {
+    "extensions": "woff",
+    "type": "font/woff"
+  },
+  {
+    "extensions": "woff2",
+    "type": "font/woff2"
+  },
+  {
+    "extensions": "ttf",
+    "type": "font/ttf"
+  },
+  {
+    "extensions": "otf",
+    "type": "font/otf"
+  },
+  {
+    "extensions": "ics",
+    "type": "text/calendar"
+  },
+  {
+    "extensions": "doc",
+    "type": "application/msword"
+  },
+  {
+    "extensions": "docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  {
+    "extensions": "xlsx",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  {
+    "extensions": "pptx",
+    "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "extensions": "epub",
+    "type": "application/epub+zip"
+  },
+  {
+    "extensions": "rtf",
+    "type": "application/rtf"
+  }
+]
