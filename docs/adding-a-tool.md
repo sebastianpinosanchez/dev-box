@@ -1,6 +1,6 @@
 # Adding a tool
 
-Start with AGENTS.md and src/tools/AGENTS.md. Use Node 22.20.0 and run `npm ci` during setup. Choose a focused backlog item and create a dated plan for a larger change. The Base64 folder is the canonical complete reference.
+Start with AGENTS.md and src/tools/AGENTS.md. Run `nvm use` to select the Node version in `.nvmrc` and run `npm ci` during setup. Choose a focused backlog item and create a dated plan for a larger change. The Base64 folder is the canonical complete reference.
 
 ## Worked example: line sorter
 

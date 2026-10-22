@@ -1,0 +1,84 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests",
+    "docker:pinDigests"
+  ],
+  "enabledManagers": ["npm", "nvm", "dockerfile", "github-actions"],
+  "timezone": "America/Bogota",
+  "schedule": ["* 0-6 * * 1"],
+  "minimumReleaseAge": "3 days",
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 2,
+  "automerge": false,
+  "dependencyDashboard": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["* 0-6 * * 1"]
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "schedule": ["at any time"],
+    "minimumReleaseAge": "0 days",
+    "groupName": null
+  },
+  "packageRules": [
+    {
+      "description": "Keep the runtime on Node 22 until a deliberate LTS migration.",
+      "matchPackageNames": ["node"],
+      "allowedVersions": ">=22.20.0 <23",
+      "groupName": "Node.js runtime"
+    },
+    {
+      "description": "The engines range is a compatibility floor, not an exact runtime pin.",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["engines"],
+      "enabled": false
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "React"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "eslint",
+        "@eslint/**",
+        "eslint-plugin-*",
+        "typescript-eslint"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "ESLint"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["tailwindcss", "@tailwindcss/**"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Tailwind CSS"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "vitest",
+        "@vitest/**",
+        "@testing-library/**",
+        "jsdom"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Unit testing"
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": null,
+      "dependencyDashboardApproval": true
+    }
+  ]
+}

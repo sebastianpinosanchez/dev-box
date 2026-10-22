@@ -4,7 +4,7 @@ DevBox is a self-hosted React/TypeScript developer toolkit. **No network calls a
 
 ## Commands
 
-Use Node 22.20.0 (`nvm use`).
+Use the Node version pinned in `.nvmrc` (`nvm use`).
 
 - Install: `npm ci`
 - Develop: `npm run dev` (loopback)

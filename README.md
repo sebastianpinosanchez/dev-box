@@ -4,7 +4,7 @@ A local developer toolbox with **42 tools**, bundled fonts and reference data. N
 
 ## Run locally
 
-Node **22.20.0** and npm are required. Network is needed only for setup.
+The Node version pinned in `.nvmrc` and npm are required. Run `nvm use` to select it. Network is needed only for setup.
 
 ```sh
 npm ci

@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added Renovate automation for weekly npm, Node.js, Docker and GitHub Actions update PRs, with manual merging, lockfile maintenance and prioritized security fixes.
+
 ## 1.0.0 — 2026-10-21
 
 - Encoding: JWT studio, Base64, URL studio, HTML entities, text/byte conversions and arbitrary integer bases.
